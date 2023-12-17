@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.receipe-page{
+    width: 960px;
+    margin: 0 auto;
+      
+    /* display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:400px 300px ; */
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    background-color: bisque;
+}
+.main-left{
+}
+.main-left img{
+    width: 100%;
+}
+.main-right{
+    
+
+}
+.main-right h6{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.main-right h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.main-right p{
+    font-size: 40px;
+}
+.receipe-gallery{
+    background-color: pink;
+    
+}
+.gallery-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px;
+    grid-gap: 40px;
+}
+.gallery-item{
+    position: relative;
+}
+.gallery-item img{
+    width: 100%;
+    height:250px;
+}
+.gallery-item button{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    padding: 8px 15px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
+}
